@@ -1,3 +1,8 @@
+! Title: My Personal Filters
+! Version: 1.0
+! Last modified: 2025-07-08 14:31
+! Homepage: https://github.com/marcopg99/my-ublock-filters/edit/main/filters.txt
+
 ! 2024-03-21 https://text-compare.com
 text-compare.com###jizsl_fkadqzs7qh4jsbesmhrhnh4hjg
 text-compare.com##.mainContent > span
