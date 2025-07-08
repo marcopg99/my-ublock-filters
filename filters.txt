@@ -1,0 +1,26 @@
+! 2024-03-21 https://text-compare.com
+text-compare.com###jizsl_fkadqzs7qh4jsbesmhrhnh4hjg
+text-compare.com##.mainContent > span
+text-compare.com###navigation
+
+twitch.tv##+js(twitch-videoad)
+
+! remove pink fade from youtube playback progress bar
+youtube.com##.ytp-play-progress:style(background: #e31e1e !important;)
+youtube.com##.yt-page-navigation-progress:style(background: #e31e1e !important;)
+youtube.com##.yt-spec-avatar-shape--live-ring::after:style(background: #e31e1e !important;)
+youtube.com##.badge-shape-wiz--thumbnail-live:style(background: #e31e1e !important;)
+youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #e31e1e !important;)
+youtube.com##html:style(--yt-spec-static-brand-red: #e31e1e !important)
+
+www.youtube.com##*:matches-css(fill: #FF0033):style(fill: #e31e1e !important;)
+www.youtube.com##*:matches-css(fill: currentcolor):style(fill: #e31e1e !important;)
+www.youtube.com##*:matches-css(background: #FF0033):style(background: #e31e1e !important;)
+
+www.youtube.com##*:matches-attr(fill="#FF0033"):style(fill: #e31e1e !important;)
+www.youtube.com##*:matches-attr(fill="currentcolor"):style(fill: #e31e1e !important;)
+www.youtube.com##*:matches-attr(background="#FF0033"):style(background: #e31e1e !important;)
+
+! disable background color when hovering over a video
+www.youtube.com##html > body > ytd-app > div:nth-of-type(1) > ytd-page-manager > ytd-browse > ytd-two-column-browse-results-renderer > div:nth-of-type(1) > ytd-rich-grid-renderer > div:nth-of-type(6) > ytd-rich-item-renderer:style(background-color: rgba(0,0,0,0) !important; box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px !important;)
+
