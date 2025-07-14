@@ -16,6 +16,8 @@ youtube.com##.yt-page-navigation-progress:style(background: #e31e1e !important;)
 youtube.com##.yt-spec-avatar-shape--live-ring::after:style(background: #e31e1e !important;)
 youtube.com##.badge-shape-wiz--thumbnail-live:style(background: #e31e1e !important;)
 youtube.com##.badge-style-type-live-now-alternate.ytd-badge-supported-renderer:style(background: #e31e1e !important;)
+youtube.com##.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment:style(background: #e31e1e !important;)
+
 
 youtube.com##ytd-thumbnail-overlay-resume-playback-renderer #progress.ytd-thumbnail-overlay-resume-playback-renderer:style(background: #e31e1e !important;)
 youtube.com##html:style(--yt-spec-static-brand-red: #e31e1e !important)
